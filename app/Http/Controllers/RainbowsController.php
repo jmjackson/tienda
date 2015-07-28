@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Rainbows\Http\Requests;
 use Rainbows\Http\Controllers\Controller;
 
-class InicioController extends Controller
+class RainbowsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +16,7 @@ class InicioController extends Controller
      */
     public function index()
     {
-        return "Estoy en el index";
+        //
     }
 
     /**
@@ -26,7 +26,7 @@ class InicioController extends Controller
      */
     public function create()
     {
-        return 'crear';
+        //
     }
 
     /**
