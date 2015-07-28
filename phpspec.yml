@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Rainbows
+        psr4_prefix: Rainbows
+        src_path: app
