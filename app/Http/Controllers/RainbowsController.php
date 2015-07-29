@@ -16,7 +16,7 @@ class RainbowsController extends Controller
      */
     public function index()
     {
-        //
+        return "welcome"
     }
 
     /**

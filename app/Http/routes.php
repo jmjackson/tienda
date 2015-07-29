@@ -11,7 +11,7 @@
 |
 */
 Route::get('home','HomeController@index');
-Route::resource('index','InicioController');
+Route::resource('tienda','RainbowsController');
 Route::get('/', function () {
     return View::make('hello');
 });
