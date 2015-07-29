@@ -10,12 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('home','HomeController@index');
-Route::resource('tienda','RainbowsController');
-Route::get('/', function () {
-    return View::make('hello');
-});
-
-
-
-
+Route::get('/','HomeController@index');
+Route::get('Contacto','HomeController@contacto');
+Route::get('Acerca','HomeController@acerca');
