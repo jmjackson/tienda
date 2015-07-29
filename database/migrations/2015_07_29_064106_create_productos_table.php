@@ -18,6 +18,10 @@ class CreateProductosTable extends Migration
             $table->string('marca');
             $table->string('foto');
             $table->decimal('precio');
+            $table->integer('stock');
+            $table->text('descripcion');
+            $table->integer('categoria_id')->unsigned();
+            $table->foreign('categoria_id')->references('id')->on('categorias');
             $table->timestamps();
         });
     }
