@@ -3,10 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Rainbows </title>
+	<title>Rainbows Media</title>
 	<link rel="stylesheet" href="">
 </head>
+<header id="header" class="">
+	Bienvenido  a Rainbows
+</header><!-- /header -->
 <body>
-	<h1></h1>
+	@yield('contenido')
 </body>
 </html>
