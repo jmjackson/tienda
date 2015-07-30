@@ -1,0 +1,24 @@
+h1{
+	margin:0;
+}
+body{
+	background-color: #B1A597;
+}
+header{
+padding-top: 1em;
+max-width: 100%;
+background-color: #fff;
+color:#888888;
+}
+.menus{
+	margin-top: 15px;
+	font-size: 12pt;
+}
+a{
+	margin-right: 10px;
+ color:#888888;
+ text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+};
