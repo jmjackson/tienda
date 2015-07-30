@@ -13,3 +13,5 @@
 Route::get('/','HomeController@index');
 Route::get('Contacto','HomeController@contacto');
 Route::get('Acerca','HomeController@acerca');
+
+Route::resource('usuario','UsuarioController');
